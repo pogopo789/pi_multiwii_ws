@@ -1,2 +1,0 @@
-/home/thanhdat/pi_ws/devel/./cmake.lock 9
-/home/thanhdat/pi_multiwii_ws/devel/./cmake.lock 1
