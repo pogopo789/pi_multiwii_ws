@@ -1,1 +1,0 @@
-/home/thanhdat/pi_multiwii_ws/devel/.private/catkin_tools_prebuild/local_setup.sh
