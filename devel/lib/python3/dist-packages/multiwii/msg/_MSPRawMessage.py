@@ -1,0 +1,1 @@
+/home/thanhdat/pi_multiwii_ws/devel/.private/multiwii/lib/python3/dist-packages/multiwii/msg/_MSPRawMessage.py

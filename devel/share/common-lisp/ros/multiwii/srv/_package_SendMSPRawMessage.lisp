@@ -1,0 +1,1 @@
+/home/thanhdat/pi_multiwii_ws/devel/.private/multiwii/share/common-lisp/ros/multiwii/srv/_package_SendMSPRawMessage.lisp
