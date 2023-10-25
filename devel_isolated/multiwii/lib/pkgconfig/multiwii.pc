@@ -1,8 +1,8 @@
-prefix=./pi_multiwii_ws/devel_isolated/multiwii
+prefix=/pi_multiwii_ws/devel_isolated/multiwii
 
 Name: multiwii
 Description: Description of multiwii
 Version: 2.1.0
-Cflags: -I./pi_multiwii_ws/devel_isolated/multiwii/include -I./pi_multiwii_ws/src/multiwii/include
+Cflags: -I/pi_multiwii_ws/devel_isolated/multiwii/include -I/pi_multiwii_ws/src/multiwii/include
 Libs: -L${prefix}/lib 
 Requires: message_runtime

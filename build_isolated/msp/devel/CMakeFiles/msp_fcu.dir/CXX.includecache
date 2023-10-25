@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-./pi_multiwii_ws/src/msp/inc/msp/ByteVector.hpp
+/pi_multiwii_ws/src/msp/inc/msp/ByteVector.hpp
 cstdint
 -
 limits
@@ -18,9 +18,9 @@ type_traits
 vector
 -
 Value.hpp
-./pi_multiwii_ws/src/msp/inc/msp/Value.hpp
+/pi_multiwii_ws/src/msp/inc/msp/Value.hpp
 
-./pi_multiwii_ws/src/msp/inc/msp/Client.hpp
+/pi_multiwii_ws/src/msp/inc/msp/Client.hpp
 asio.hpp
 -
 condition_variable
@@ -36,33 +36,33 @@ string
 thread
 -
 ByteVector.hpp
-./pi_multiwii_ws/src/msp/inc/msp/ByteVector.hpp
+/pi_multiwii_ws/src/msp/inc/msp/ByteVector.hpp
 FirmwareVariants.hpp
-./pi_multiwii_ws/src/msp/inc/msp/FirmwareVariants.hpp
+/pi_multiwii_ws/src/msp/inc/msp/FirmwareVariants.hpp
 Message.hpp
-./pi_multiwii_ws/src/msp/inc/msp/Message.hpp
+/pi_multiwii_ws/src/msp/inc/msp/Message.hpp
 Subscription.hpp
-./pi_multiwii_ws/src/msp/inc/msp/Subscription.hpp
+/pi_multiwii_ws/src/msp/inc/msp/Subscription.hpp
 
-./pi_multiwii_ws/src/msp/inc/msp/FirmwareVariants.hpp
+/pi_multiwii_ws/src/msp/inc/msp/FirmwareVariants.hpp
 map
 -
 string
 -
 
-./pi_multiwii_ws/src/msp/inc/msp/FlightController.hpp
+/pi_multiwii_ws/src/msp/inc/msp/FlightController.hpp
 Client.hpp
-./pi_multiwii_ws/src/msp/inc/msp/Client.hpp
+/pi_multiwii_ws/src/msp/inc/msp/Client.hpp
 FlightMode.hpp
-./pi_multiwii_ws/src/msp/inc/msp/FlightMode.hpp
+/pi_multiwii_ws/src/msp/inc/msp/FlightMode.hpp
 PeriodicTimer.hpp
-./pi_multiwii_ws/src/msp/inc/msp/PeriodicTimer.hpp
+/pi_multiwii_ws/src/msp/inc/msp/PeriodicTimer.hpp
 msp_msg.hpp
-./pi_multiwii_ws/src/msp/inc/msp/msp_msg.hpp
+/pi_multiwii_ws/src/msp/inc/msp/msp_msg.hpp
 
-./pi_multiwii_ws/src/msp/inc/msp/FlightMode.hpp
+/pi_multiwii_ws/src/msp/inc/msp/FlightMode.hpp
 
-./pi_multiwii_ws/src/msp/inc/msp/Message.hpp
+/pi_multiwii_ws/src/msp/inc/msp/Message.hpp
 iostream
 -
 memory
@@ -72,11 +72,11 @@ string
 vector
 -
 ByteVector.hpp
-./pi_multiwii_ws/src/msp/inc/msp/ByteVector.hpp
+/pi_multiwii_ws/src/msp/inc/msp/ByteVector.hpp
 FirmwareVariants.hpp
-./pi_multiwii_ws/src/msp/inc/msp/FirmwareVariants.hpp
+/pi_multiwii_ws/src/msp/inc/msp/FirmwareVariants.hpp
 
-./pi_multiwii_ws/src/msp/inc/msp/PeriodicTimer.hpp
+/pi_multiwii_ws/src/msp/inc/msp/PeriodicTimer.hpp
 atomic
 -
 chrono
@@ -90,23 +90,23 @@ mutex
 thread
 -
 
-./pi_multiwii_ws/src/msp/inc/msp/Subscription.hpp
+/pi_multiwii_ws/src/msp/inc/msp/Subscription.hpp
 functional
 -
 Client.hpp
-./pi_multiwii_ws/src/msp/inc/msp/Client.hpp
+/pi_multiwii_ws/src/msp/inc/msp/Client.hpp
 Message.hpp
-./pi_multiwii_ws/src/msp/inc/msp/Message.hpp
+/pi_multiwii_ws/src/msp/inc/msp/Message.hpp
 PeriodicTimer.hpp
-./pi_multiwii_ws/src/msp/inc/msp/PeriodicTimer.hpp
+/pi_multiwii_ws/src/msp/inc/msp/PeriodicTimer.hpp
 
-./pi_multiwii_ws/src/msp/inc/msp/Value.hpp
+/pi_multiwii_ws/src/msp/inc/msp/Value.hpp
 iostream
 -
 utility
 -
 
-./pi_multiwii_ws/src/msp/inc/msp/msp_msg.hpp
+/pi_multiwii_ws/src/msp/inc/msp/msp_msg.hpp
 array
 -
 cassert
@@ -124,11 +124,11 @@ string
 vector
 -
 Message.hpp
-./pi_multiwii_ws/src/msp/inc/msp/Message.hpp
+/pi_multiwii_ws/src/msp/inc/msp/Message.hpp
 
-./pi_multiwii_ws/src/msp/src/FlightController.cpp
+/pi_multiwii_ws/src/msp/src/FlightController.cpp
 FlightController.hpp
-./pi_multiwii_ws/src/msp/src/FlightController.hpp
+/pi_multiwii_ws/src/msp/src/FlightController.hpp
 iostream
 -
 

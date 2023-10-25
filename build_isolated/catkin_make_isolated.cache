@@ -1,2 +1,2 @@
 msp:multiwii
--G Unix Makefiles -DCATKIN_DEVEL_PREFIX=./pi_multiwii_ws/devel_isolated -DCMAKE_INSTALL_PREFIX=./pi_multiwii_ws/install_isolated
+-G Unix Makefiles -DCATKIN_DEVEL_PREFIX=/pi_multiwii_ws/devel_isolated -DCMAKE_INSTALL_PREFIX=/pi_multiwii_ws/install_isolated

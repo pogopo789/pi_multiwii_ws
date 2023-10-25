@@ -34,7 +34,7 @@ include rules.ninja
 # Utility command for install/strip
 
 build CMakeFiles/install/strip.util: CUSTOM_COMMAND all
-  COMMAND = cd ./pi_multiwii_ws/src/msp/build && /usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+  COMMAND = cd /pi_multiwii_ws/src/msp/build && /usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -46,7 +46,7 @@ build install/strip: phony CMakeFiles/install/strip.util
 # Utility command for install/local
 
 build CMakeFiles/install/local.util: CUSTOM_COMMAND all
-  COMMAND = cd ./pi_multiwii_ws/src/msp/build && /usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+  COMMAND = cd /pi_multiwii_ws/src/msp/build && /usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -58,7 +58,7 @@ build install/local: phony CMakeFiles/install/local.util
 # Utility command for install
 
 build CMakeFiles/install.util: CUSTOM_COMMAND all
-  COMMAND = cd ./pi_multiwii_ws/src/msp/build && /usr/bin/cmake -P cmake_install.cmake
+  COMMAND = cd /pi_multiwii_ws/src/msp/build && /usr/bin/cmake -P cmake_install.cmake
   DESC = Install the project...
   pool = console
   restat = 1
@@ -76,7 +76,7 @@ build list_install_components: phony
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd ./pi_multiwii_ws/src/msp/build && /usr/bin/cmake -S./pi_multiwii_ws/src/msp -B./pi_multiwii_ws/src/msp/build
+  COMMAND = cd /pi_multiwii_ws/src/msp/build && /usr/bin/cmake -S/pi_multiwii_ws/src/msp -B/pi_multiwii_ws/src/msp/build
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -88,7 +88,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd ./pi_multiwii_ws/src/msp/build && /usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /pi_multiwii_ws/src/msp/build && /usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -123,7 +123,7 @@ build CMakeFiles/client_async_test.dir/examples/client_async_test.cpp.o: CXX_COM
 
 build client_async_test: CXX_EXECUTABLE_LINKER__client_async_test CMakeFiles/client_async_test.dir/examples/client_async_test.cpp.o | libmspclient.so || libmspclient.so
   FLAGS = -O3 -DNDEBUG
-  LINK_LIBRARIES = -Wl,-rpath,./pi_multiwii_ws/src/msp/build  libmspclient.so  -lpthread
+  LINK_LIBRARIES = -Wl,-rpath,/pi_multiwii_ws/src/msp/build  libmspclient.so  -lpthread
   OBJECT_DIR = CMakeFiles/client_async_test.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -160,7 +160,7 @@ build CMakeFiles/client_read_test.dir/examples/client_read_test.cpp.o: CXX_COMPI
 
 build client_read_test: CXX_EXECUTABLE_LINKER__client_read_test CMakeFiles/client_read_test.dir/examples/client_read_test.cpp.o | libmspclient.so || libmspclient.so
   FLAGS = -O3 -DNDEBUG
-  LINK_LIBRARIES = -Wl,-rpath,./pi_multiwii_ws/src/msp/build  libmspclient.so  -lpthread
+  LINK_LIBRARIES = -Wl,-rpath,/pi_multiwii_ws/src/msp/build  libmspclient.so  -lpthread
   OBJECT_DIR = CMakeFiles/client_read_test.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -197,7 +197,7 @@ build CMakeFiles/fcu_custom_type.dir/examples/fcu_custom_type.cpp.o: CXX_COMPILE
 
 build fcu_custom_type: CXX_EXECUTABLE_LINKER__fcu_custom_type CMakeFiles/fcu_custom_type.dir/examples/fcu_custom_type.cpp.o | libmsp_fcu.so libmspclient.so || libmsp_fcu.so libmspclient.so
   FLAGS = -O3 -DNDEBUG
-  LINK_LIBRARIES = -Wl,-rpath,./pi_multiwii_ws/src/msp/build  libmsp_fcu.so  libmspclient.so  -lpthread
+  LINK_LIBRARIES = -Wl,-rpath,/pi_multiwii_ws/src/msp/build  libmsp_fcu.so  libmspclient.so  -lpthread
   OBJECT_DIR = CMakeFiles/fcu_custom_type.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -234,7 +234,7 @@ build CMakeFiles/fcu_motors.dir/examples/fcu_motor_test.cpp.o: CXX_COMPILER__fcu
 
 build fcu_motors: CXX_EXECUTABLE_LINKER__fcu_motors CMakeFiles/fcu_motors.dir/examples/fcu_motor_test.cpp.o | libmsp_fcu.so libmspclient.so || libmsp_fcu.so libmspclient.so
   FLAGS = -O3 -DNDEBUG
-  LINK_LIBRARIES = -Wl,-rpath,./pi_multiwii_ws/src/msp/build  libmsp_fcu.so  libmspclient.so  -lpthread
+  LINK_LIBRARIES = -Wl,-rpath,/pi_multiwii_ws/src/msp/build  libmsp_fcu.so  libmspclient.so  -lpthread
   OBJECT_DIR = CMakeFiles/fcu_motors.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -271,7 +271,7 @@ build CMakeFiles/fcu_test.dir/examples/fcu_test.cpp.o: CXX_COMPILER__fcu_test ..
 
 build fcu_test: CXX_EXECUTABLE_LINKER__fcu_test CMakeFiles/fcu_test.dir/examples/fcu_test.cpp.o | libmsp_fcu.so libmspclient.so || libmsp_fcu.so libmspclient.so
   FLAGS = -O3 -DNDEBUG
-  LINK_LIBRARIES = -Wl,-rpath,./pi_multiwii_ws/src/msp/build  libmsp_fcu.so  libmspclient.so  -lpthread
+  LINK_LIBRARIES = -Wl,-rpath,/pi_multiwii_ws/src/msp/build  libmsp_fcu.so  libmspclient.so  -lpthread
   OBJECT_DIR = CMakeFiles/fcu_test.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -308,7 +308,7 @@ build CMakeFiles/msp_fcu.dir/src/FlightController.cpp.o: CXX_COMPILER__msp_fcu .
 
 build libmsp_fcu.so: CXX_SHARED_LIBRARY_LINKER__msp_fcu CMakeFiles/msp_fcu.dir/src/FlightController.cpp.o | libmspclient.so || libmspclient.so
   LANGUAGE_COMPILE_FLAGS = -O3 -DNDEBUG
-  LINK_LIBRARIES = -Wl,-rpath,./pi_multiwii_ws/src/msp/build:  libmspclient.so  -lpthread
+  LINK_LIBRARIES = -Wl,-rpath,/pi_multiwii_ws/src/msp/build:  libmspclient.so  -lpthread
   OBJECT_DIR = CMakeFiles/msp_fcu.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -380,7 +380,7 @@ build mspclient: phony libmspclient.so
 # =============================================================================
 
 #############################################
-# Folder: ./pi_multiwii_ws/src/msp/build
+# Folder: /pi_multiwii_ws/src/msp/build
 
 build all: phony client_async_test client_read_test fcu_custom_type fcu_motors fcu_test libmsp_fcu.so libmspclient.so
 

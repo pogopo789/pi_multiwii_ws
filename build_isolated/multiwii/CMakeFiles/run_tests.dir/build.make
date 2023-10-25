@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = ./pi_multiwii_ws/src/multiwii
+CMAKE_SOURCE_DIR = /pi_multiwii_ws/src/multiwii
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = ./pi_multiwii_ws/build_isolated/multiwii
+CMAKE_BINARY_DIR = /pi_multiwii_ws/build_isolated/multiwii
 
 # Utility rule file for run_tests.
 
@@ -67,6 +67,6 @@ CMakeFiles/run_tests.dir/clean:
 .PHONY : CMakeFiles/run_tests.dir/clean
 
 CMakeFiles/run_tests.dir/depend:
-	cd ./pi_multiwii_ws/build_isolated/multiwii && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" ./pi_multiwii_ws/src/multiwii ./pi_multiwii_ws/src/multiwii ./pi_multiwii_ws/build_isolated/multiwii ./pi_multiwii_ws/build_isolated/multiwii ./pi_multiwii_ws/build_isolated/multiwii/CMakeFiles/run_tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /pi_multiwii_ws/build_isolated/multiwii && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /pi_multiwii_ws/src/multiwii /pi_multiwii_ws/src/multiwii /pi_multiwii_ws/build_isolated/multiwii /pi_multiwii_ws/build_isolated/multiwii /pi_multiwii_ws/build_isolated/multiwii/CMakeFiles/run_tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/run_tests.dir/depend
 

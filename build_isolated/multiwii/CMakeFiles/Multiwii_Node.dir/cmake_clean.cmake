@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "./pi_multiwii_ws/devel_isolated/multiwii/lib/multiwii/Multiwii_Node"
-  "./pi_multiwii_ws/devel_isolated/multiwii/lib/multiwii/Multiwii_Node.pdb"
+  "/pi_multiwii_ws/devel_isolated/multiwii/lib/multiwii/Multiwii_Node"
+  "/pi_multiwii_ws/devel_isolated/multiwii/lib/multiwii/Multiwii_Node.pdb"
   "CMakeFiles/Multiwii_Node.dir/src/MultiwiiNode/MultiwiiNode.cpp.o"
 )
 

@@ -6,5 +6,5 @@ CXX_FLAGS =   -Wall -Wextra -Wpedantic -Werror -std=c++14
 
 CXX_DEFINES = -DASIO_HAS_CSTDINT -DASIO_HAS_STD_ADDRESSOF -DASIO_HAS_STD_ARRAY -DASIO_HAS_STD_SHARED_PTR -DASIO_HAS_STD_TYPE_TRAITS -DASIO_STANDALONE
 
-CXX_INCLUDES = -I./pi_multiwii_ws/src/msp/inc/msp 
+CXX_INCLUDES = -I/pi_multiwii_ws/src/msp/inc/msp 
 
