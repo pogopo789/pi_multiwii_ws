@@ -1,10 +1,10 @@
 Performing C++ SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
-Change Dir: /home/thanhdat/pi_multiwii_ws/build_isolated/msp/devel/CMakeFiles/CMakeTmp
+Change Dir: /pi_multiwii_ws/build_isolated/msp/devel/CMakeFiles/CMakeTmp
 
 Run Build Command(s):/usr/bin/make cmTC_1b0fc/fast && /usr/bin/make -f CMakeFiles/cmTC_1b0fc.dir/build.make CMakeFiles/cmTC_1b0fc.dir/build
-make[1]: Entering directory '/home/thanhdat/pi_multiwii_ws/build_isolated/msp/devel/CMakeFiles/CMakeTmp'
+make[1]: Entering directory '/pi_multiwii_ws/build_isolated/msp/devel/CMakeFiles/CMakeTmp'
 Building CXX object CMakeFiles/cmTC_1b0fc.dir/src.cxx.o
-/usr/bin/c++    -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_1b0fc.dir/src.cxx.o -c /home/thanhdat/pi_multiwii_ws/build_isolated/msp/devel/CMakeFiles/CMakeTmp/src.cxx
+/usr/bin/c++    -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_1b0fc.dir/src.cxx.o -c /pi_multiwii_ws/build_isolated/msp/devel/CMakeFiles/CMakeTmp/src.cxx
 Linking CXX executable cmTC_1b0fc
 /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1b0fc.dir/link.txt --verbose=1
 /usr/bin/c++   -DCMAKE_HAVE_LIBC_PTHREAD    CMakeFiles/cmTC_1b0fc.dir/src.cxx.o  -o cmTC_1b0fc 
@@ -14,7 +14,7 @@ src.cxx:(.text+0x46): undefined reference to `pthread_create'
 /usr/bin/ld: src.cxx:(.text+0x63): undefined reference to `pthread_join'
 collect2: error: ld returned 1 exit status
 make[1]: *** [CMakeFiles/cmTC_1b0fc.dir/build.make:87: cmTC_1b0fc] Error 1
-make[1]: Leaving directory '/home/thanhdat/pi_multiwii_ws/build_isolated/msp/devel/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/pi_multiwii_ws/build_isolated/msp/devel/CMakeFiles/CMakeTmp'
 make: *** [Makefile:121: cmTC_1b0fc/fast] Error 2
 
 
@@ -39,19 +39,19 @@ int main(void)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/thanhdat/pi_multiwii_ws/build_isolated/msp/devel/CMakeFiles/CMakeTmp
+Change Dir: /pi_multiwii_ws/build_isolated/msp/devel/CMakeFiles/CMakeTmp
 
 Run Build Command(s):/usr/bin/make cmTC_aafc7/fast && /usr/bin/make -f CMakeFiles/cmTC_aafc7.dir/build.make CMakeFiles/cmTC_aafc7.dir/build
-make[1]: Entering directory '/home/thanhdat/pi_multiwii_ws/build_isolated/msp/devel/CMakeFiles/CMakeTmp'
+make[1]: Entering directory '/pi_multiwii_ws/build_isolated/msp/devel/CMakeFiles/CMakeTmp'
 Building CXX object CMakeFiles/cmTC_aafc7.dir/CheckFunctionExists.cxx.o
-/usr/bin/c++    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_aafc7.dir/CheckFunctionExists.cxx.o -c /home/thanhdat/pi_multiwii_ws/build_isolated/msp/devel/CMakeFiles/CheckLibraryExists/CheckFunctionExists.cxx
+/usr/bin/c++    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_aafc7.dir/CheckFunctionExists.cxx.o -c /pi_multiwii_ws/build_isolated/msp/devel/CMakeFiles/CheckLibraryExists/CheckFunctionExists.cxx
 Linking CXX executable cmTC_aafc7
 /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aafc7.dir/link.txt --verbose=1
 /usr/bin/c++   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_aafc7.dir/CheckFunctionExists.cxx.o  -o cmTC_aafc7  -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
 make[1]: *** [CMakeFiles/cmTC_aafc7.dir/build.make:87: cmTC_aafc7] Error 1
-make[1]: Leaving directory '/home/thanhdat/pi_multiwii_ws/build_isolated/msp/devel/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/pi_multiwii_ws/build_isolated/msp/devel/CMakeFiles/CMakeTmp'
 make: *** [Makefile:121: cmTC_aafc7/fast] Error 2
 
 

@@ -1,9 +1,9 @@
 file(REMOVE_RECURSE
-  "/home/thanhdat/pi_multiwii_ws/devel_isolated/multiwii/lib/python3/dist-packages/multiwii/msg/_MSPRawMessage.py"
-  "/home/thanhdat/pi_multiwii_ws/devel_isolated/multiwii/lib/python3/dist-packages/multiwii/msg/__init__.py"
-  "/home/thanhdat/pi_multiwii_ws/devel_isolated/multiwii/lib/python3/dist-packages/multiwii/srv/_ReceiveMSPRawMessage.py"
-  "/home/thanhdat/pi_multiwii_ws/devel_isolated/multiwii/lib/python3/dist-packages/multiwii/srv/_SendMSPRawMessage.py"
-  "/home/thanhdat/pi_multiwii_ws/devel_isolated/multiwii/lib/python3/dist-packages/multiwii/srv/__init__.py"
+  "/pi_multiwii_ws/devel_isolated/multiwii/lib/python3/dist-packages/multiwii/msg/_MSPRawMessage.py"
+  "/pi_multiwii_ws/devel_isolated/multiwii/lib/python3/dist-packages/multiwii/msg/__init__.py"
+  "/pi_multiwii_ws/devel_isolated/multiwii/lib/python3/dist-packages/multiwii/srv/_ReceiveMSPRawMessage.py"
+  "/pi_multiwii_ws/devel_isolated/multiwii/lib/python3/dist-packages/multiwii/srv/_SendMSPRawMessage.py"
+  "/pi_multiwii_ws/devel_isolated/multiwii/lib/python3/dist-packages/multiwii/srv/__init__.py"
   "CMakeFiles/multiwii_generate_messages_py"
 )
 

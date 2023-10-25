@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/thanhdat/pi_multiwii_ws/src/msp/src/Client.cpp" "/home/thanhdat/pi_multiwii_ws/build_isolated/msp/devel/CMakeFiles/mspclient.dir/src/Client.cpp.o"
-  "/home/thanhdat/pi_multiwii_ws/src/msp/src/PeriodicTimer.cpp" "/home/thanhdat/pi_multiwii_ws/build_isolated/msp/devel/CMakeFiles/mspclient.dir/src/PeriodicTimer.cpp.o"
+  "/pi_multiwii_ws/src/msp/src/Client.cpp" "/pi_multiwii_ws/build_isolated/msp/devel/CMakeFiles/mspclient.dir/src/Client.cpp.o"
+  "/pi_multiwii_ws/src/msp/src/PeriodicTimer.cpp" "/pi_multiwii_ws/build_isolated/msp/devel/CMakeFiles/mspclient.dir/src/PeriodicTimer.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -22,7 +22,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/thanhdat/pi_multiwii_ws/src/msp/inc/msp"
+  "/pi_multiwii_ws/src/msp/inc/msp"
   )
 
 # Targets to which this target links.

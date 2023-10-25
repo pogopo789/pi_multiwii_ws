@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "/home/thanhdat/pi_multiwii_ws/devel_isolated/multiwii/share/common-lisp/ros/multiwii/msg/MSPRawMessage.lisp"
-  "/home/thanhdat/pi_multiwii_ws/devel_isolated/multiwii/share/common-lisp/ros/multiwii/srv/ReceiveMSPRawMessage.lisp"
-  "/home/thanhdat/pi_multiwii_ws/devel_isolated/multiwii/share/common-lisp/ros/multiwii/srv/SendMSPRawMessage.lisp"
+  "/pi_multiwii_ws/devel_isolated/multiwii/share/common-lisp/ros/multiwii/msg/MSPRawMessage.lisp"
+  "/pi_multiwii_ws/devel_isolated/multiwii/share/common-lisp/ros/multiwii/srv/ReceiveMSPRawMessage.lisp"
+  "/pi_multiwii_ws/devel_isolated/multiwii/share/common-lisp/ros/multiwii/srv/SendMSPRawMessage.lisp"
   "CMakeFiles/multiwii_generate_messages_lisp"
 )
 

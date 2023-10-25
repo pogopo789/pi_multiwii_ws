@@ -1,4 +1,4 @@
-prefix=/home/thanhdat/pi_multiwii_ws/install_isolated
+prefix=/pi_multiwii_ws/install_isolated
 
 Name: multiwii
 Description: Description of multiwii

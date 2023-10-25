@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/thanhdat/pi_multiwii_ws/src/multiwii/src/MultiwiiNode/MultiwiiNode.cpp" "/home/thanhdat/pi_multiwii_ws/build_isolated/multiwii/CMakeFiles/Multiwii_Node.dir/src/MultiwiiNode/MultiwiiNode.cpp.o"
+  "/pi_multiwii_ws/src/multiwii/src/MultiwiiNode/MultiwiiNode.cpp" "/pi_multiwii_ws/build_isolated/multiwii/CMakeFiles/Multiwii_Node.dir/src/MultiwiiNode/MultiwiiNode.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,10 +17,10 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/thanhdat/pi_multiwii_ws/devel_isolated/multiwii/include"
-  "/home/thanhdat/pi_multiwii_ws/devel_isolated/msp/include"
+  "/pi_multiwii_ws/devel_isolated/multiwii/include"
+  "/pi_multiwii_ws/devel_isolated/msp/include"
   "/usr/include/eigen3"
-  "/home/thanhdat/pi_multiwii_ws/src/multiwii/include"
+  "/pi_multiwii_ws/src/multiwii/include"
   "/opt/ros/noetic/include"
   "/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   )

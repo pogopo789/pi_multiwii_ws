@@ -67,14 +67,14 @@ set(multiwii_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(multiwii_SOURCE_PREFIX /home/thanhdat/pi_multiwii_ws/src/multiwii)
-  set(multiwii_DEVEL_PREFIX /home/thanhdat/pi_multiwii_ws/devel_isolated/multiwii)
+  set(multiwii_SOURCE_PREFIX /pi_multiwii_ws/src/multiwii)
+  set(multiwii_DEVEL_PREFIX /pi_multiwii_ws/devel_isolated/multiwii)
   set(multiwii_INSTALL_PREFIX "")
   set(multiwii_PREFIX ${multiwii_DEVEL_PREFIX})
 else()
   set(multiwii_SOURCE_PREFIX "")
   set(multiwii_DEVEL_PREFIX "")
-  set(multiwii_INSTALL_PREFIX /home/thanhdat/pi_multiwii_ws/install_isolated)
+  set(multiwii_INSTALL_PREFIX /pi_multiwii_ws/install_isolated)
   set(multiwii_PREFIX ${multiwii_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(multiwii_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/thanhdat/pi_multiwii_ws/devel_isolated/multiwii/include;/home/thanhdat/pi_multiwii_ws/src/multiwii/include " STREQUAL " ")
+if(NOT "/pi_multiwii_ws/devel_isolated/multiwii/include;/pi_multiwii_ws/src/multiwii/include " STREQUAL " ")
   set(multiwii_INCLUDE_DIRS "")
-  set(_include_dirs "/home/thanhdat/pi_multiwii_ws/devel_isolated/multiwii/include;/home/thanhdat/pi_multiwii_ws/src/multiwii/include")
+  set(_include_dirs "/pi_multiwii_ws/devel_isolated/multiwii/include;/pi_multiwii_ws/src/multiwii/include")
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT " " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/home/thanhdat/pi_multiwii_ws/devel_isolated/multiwii/include;/home/than
         message(FATAL_ERROR "Project 'multiwii' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'multiwii' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/thanhdat/pi_multiwii_ws/src/multiwii/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'multiwii' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/pi_multiwii_ws/src/multiwii/${idir}'.  ${_report}")
     endif()
     _list_append_unique(multiwii_INCLUDE_DIRS ${include})
   endforeach()
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/thanhdat/pi_multiwii_ws/devel_isolated/multiwii/lib;/opt/ros/noetic/lib)
+    foreach(path /pi_multiwii_ws/devel_isolated/multiwii/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)
