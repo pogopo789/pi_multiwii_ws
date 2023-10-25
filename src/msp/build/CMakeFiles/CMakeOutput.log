@@ -10,10 +10,10 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/pi_multiwii_ws/src/msp/build/CMakeFiles/3.16.3/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "./pi_multiwii_ws/src/msp/build/CMakeFiles/3.16.3/CompilerIdCXX/a.out"
 
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /pi_multiwii_ws/src/msp/build/CMakeFiles/CMakeTmp
+Change Dir: ./pi_multiwii_ws/src/msp/build/CMakeFiles/CMakeTmp
 
 Run Build Command(s):/usr/bin/ninja cmTC_1471e && [1/2] Building CXX object CMakeFiles/cmTC_1471e.dir/testCXXCompiler.cxx.o
 [2/2] Linking CXX executable cmTC_1471e
@@ -21,7 +21,7 @@ Run Build Command(s):/usr/bin/ninja cmTC_1471e && [1/2] Building CXX object CMak
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /pi_multiwii_ws/src/msp/build/CMakeFiles/CMakeTmp
+Change Dir: ./pi_multiwii_ws/src/msp/build/CMakeFiles/CMakeTmp
 
 Run Build Command(s):/usr/bin/ninja cmTC_22f46 && [1/2] Building CXX object CMakeFiles/cmTC_22f46.dir/CMakeCXXCompilerABI.cpp.o
 Using built-in specs.
@@ -104,7 +104,7 @@ Parsed CXX implicit include dir info from above output: rv=done
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /pi_multiwii_ws/src/msp/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: ./pi_multiwii_ws/src/msp/build/CMakeFiles/CMakeTmp]
   ignore line: []
   ignore line: [Run Build Command(s):/usr/bin/ninja cmTC_22f46 && [1/2] Building CXX object CMakeFiles/cmTC_22f46.dir/CMakeCXXCompilerABI.cpp.o]
   ignore line: [Using built-in specs.]
@@ -218,7 +218,7 @@ Parsed CXX implicit link information from above output:
 
 
 Determining if the include file pthread.h exists passed with the following output:
-Change Dir: /pi_multiwii_ws/src/msp/build/CMakeFiles/CMakeTmp
+Change Dir: ./pi_multiwii_ws/src/msp/build/CMakeFiles/CMakeTmp
 
 Run Build Command(s):/usr/bin/ninja cmTC_9e15c && [1/2] Building CXX object CMakeFiles/cmTC_9e15c.dir/CheckIncludeFile.cxx.o
 [2/2] Linking CXX executable cmTC_9e15c
@@ -226,7 +226,7 @@ Run Build Command(s):/usr/bin/ninja cmTC_9e15c && [1/2] Building CXX object CMak
 
 
 Determining if the function pthread_create exists in the pthread passed with the following output:
-Change Dir: /pi_multiwii_ws/src/msp/build/CMakeFiles/CMakeTmp
+Change Dir: ./pi_multiwii_ws/src/msp/build/CMakeFiles/CMakeTmp
 
 Run Build Command(s):/usr/bin/ninja cmTC_fc155 && [1/2] Building CXX object CMakeFiles/cmTC_fc155.dir/CheckFunctionExists.cxx.o
 [2/2] Linking CXX executable cmTC_fc155

@@ -43,42 +43,42 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /pi_multiwii_ws/src/multiwii
+CMAKE_SOURCE_DIR = ./pi_multiwii_ws/src/multiwii
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /pi_multiwii_ws/build_isolated/multiwii
+CMAKE_BINARY_DIR = ./pi_multiwii_ws/build_isolated/multiwii
 
 # Utility rule file for multiwii_generate_messages_nodejs.
 
 # Include the progress variables for this target.
 include CMakeFiles/multiwii_generate_messages_nodejs.dir/progress.make
 
-CMakeFiles/multiwii_generate_messages_nodejs: /pi_multiwii_ws/devel_isolated/multiwii/share/gennodejs/ros/multiwii/msg/MSPRawMessage.js
-CMakeFiles/multiwii_generate_messages_nodejs: /pi_multiwii_ws/devel_isolated/multiwii/share/gennodejs/ros/multiwii/srv/ReceiveMSPRawMessage.js
-CMakeFiles/multiwii_generate_messages_nodejs: /pi_multiwii_ws/devel_isolated/multiwii/share/gennodejs/ros/multiwii/srv/SendMSPRawMessage.js
+CMakeFiles/multiwii_generate_messages_nodejs: ./pi_multiwii_ws/devel_isolated/multiwii/share/gennodejs/ros/multiwii/msg/MSPRawMessage.js
+CMakeFiles/multiwii_generate_messages_nodejs: ./pi_multiwii_ws/devel_isolated/multiwii/share/gennodejs/ros/multiwii/srv/ReceiveMSPRawMessage.js
+CMakeFiles/multiwii_generate_messages_nodejs: ./pi_multiwii_ws/devel_isolated/multiwii/share/gennodejs/ros/multiwii/srv/SendMSPRawMessage.js
 
 
-/pi_multiwii_ws/devel_isolated/multiwii/share/gennodejs/ros/multiwii/msg/MSPRawMessage.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/pi_multiwii_ws/devel_isolated/multiwii/share/gennodejs/ros/multiwii/msg/MSPRawMessage.js: /pi_multiwii_ws/src/multiwii/msg/MSPRawMessage.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/pi_multiwii_ws/build_isolated/multiwii/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from multiwii/MSPRawMessage.msg"
-	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /pi_multiwii_ws/src/multiwii/msg/MSPRawMessage.msg -Imultiwii:/pi_multiwii_ws/src/multiwii/msg -p multiwii -o /pi_multiwii_ws/devel_isolated/multiwii/share/gennodejs/ros/multiwii/msg
+./pi_multiwii_ws/devel_isolated/multiwii/share/gennodejs/ros/multiwii/msg/MSPRawMessage.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+./pi_multiwii_ws/devel_isolated/multiwii/share/gennodejs/ros/multiwii/msg/MSPRawMessage.js: ./pi_multiwii_ws/src/multiwii/msg/MSPRawMessage.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=./pi_multiwii_ws/build_isolated/multiwii/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from multiwii/MSPRawMessage.msg"
+	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py ./pi_multiwii_ws/src/multiwii/msg/MSPRawMessage.msg -Imultiwii:./pi_multiwii_ws/src/multiwii/msg -p multiwii -o ./pi_multiwii_ws/devel_isolated/multiwii/share/gennodejs/ros/multiwii/msg
 
-/pi_multiwii_ws/devel_isolated/multiwii/share/gennodejs/ros/multiwii/srv/ReceiveMSPRawMessage.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/pi_multiwii_ws/devel_isolated/multiwii/share/gennodejs/ros/multiwii/srv/ReceiveMSPRawMessage.js: /pi_multiwii_ws/src/multiwii/srv/ReceiveMSPRawMessage.srv
-/pi_multiwii_ws/devel_isolated/multiwii/share/gennodejs/ros/multiwii/srv/ReceiveMSPRawMessage.js: /pi_multiwii_ws/src/multiwii/msg/MSPRawMessage.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/pi_multiwii_ws/build_isolated/multiwii/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Javascript code from multiwii/ReceiveMSPRawMessage.srv"
-	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /pi_multiwii_ws/src/multiwii/srv/ReceiveMSPRawMessage.srv -Imultiwii:/pi_multiwii_ws/src/multiwii/msg -p multiwii -o /pi_multiwii_ws/devel_isolated/multiwii/share/gennodejs/ros/multiwii/srv
+./pi_multiwii_ws/devel_isolated/multiwii/share/gennodejs/ros/multiwii/srv/ReceiveMSPRawMessage.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+./pi_multiwii_ws/devel_isolated/multiwii/share/gennodejs/ros/multiwii/srv/ReceiveMSPRawMessage.js: ./pi_multiwii_ws/src/multiwii/srv/ReceiveMSPRawMessage.srv
+./pi_multiwii_ws/devel_isolated/multiwii/share/gennodejs/ros/multiwii/srv/ReceiveMSPRawMessage.js: ./pi_multiwii_ws/src/multiwii/msg/MSPRawMessage.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=./pi_multiwii_ws/build_isolated/multiwii/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Javascript code from multiwii/ReceiveMSPRawMessage.srv"
+	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py ./pi_multiwii_ws/src/multiwii/srv/ReceiveMSPRawMessage.srv -Imultiwii:./pi_multiwii_ws/src/multiwii/msg -p multiwii -o ./pi_multiwii_ws/devel_isolated/multiwii/share/gennodejs/ros/multiwii/srv
 
-/pi_multiwii_ws/devel_isolated/multiwii/share/gennodejs/ros/multiwii/srv/SendMSPRawMessage.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/pi_multiwii_ws/devel_isolated/multiwii/share/gennodejs/ros/multiwii/srv/SendMSPRawMessage.js: /pi_multiwii_ws/src/multiwii/srv/SendMSPRawMessage.srv
-/pi_multiwii_ws/devel_isolated/multiwii/share/gennodejs/ros/multiwii/srv/SendMSPRawMessage.js: /pi_multiwii_ws/src/multiwii/msg/MSPRawMessage.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/pi_multiwii_ws/build_isolated/multiwii/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Javascript code from multiwii/SendMSPRawMessage.srv"
-	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /pi_multiwii_ws/src/multiwii/srv/SendMSPRawMessage.srv -Imultiwii:/pi_multiwii_ws/src/multiwii/msg -p multiwii -o /pi_multiwii_ws/devel_isolated/multiwii/share/gennodejs/ros/multiwii/srv
+./pi_multiwii_ws/devel_isolated/multiwii/share/gennodejs/ros/multiwii/srv/SendMSPRawMessage.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+./pi_multiwii_ws/devel_isolated/multiwii/share/gennodejs/ros/multiwii/srv/SendMSPRawMessage.js: ./pi_multiwii_ws/src/multiwii/srv/SendMSPRawMessage.srv
+./pi_multiwii_ws/devel_isolated/multiwii/share/gennodejs/ros/multiwii/srv/SendMSPRawMessage.js: ./pi_multiwii_ws/src/multiwii/msg/MSPRawMessage.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=./pi_multiwii_ws/build_isolated/multiwii/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Javascript code from multiwii/SendMSPRawMessage.srv"
+	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py ./pi_multiwii_ws/src/multiwii/srv/SendMSPRawMessage.srv -Imultiwii:./pi_multiwii_ws/src/multiwii/msg -p multiwii -o ./pi_multiwii_ws/devel_isolated/multiwii/share/gennodejs/ros/multiwii/srv
 
 multiwii_generate_messages_nodejs: CMakeFiles/multiwii_generate_messages_nodejs
-multiwii_generate_messages_nodejs: /pi_multiwii_ws/devel_isolated/multiwii/share/gennodejs/ros/multiwii/msg/MSPRawMessage.js
-multiwii_generate_messages_nodejs: /pi_multiwii_ws/devel_isolated/multiwii/share/gennodejs/ros/multiwii/srv/ReceiveMSPRawMessage.js
-multiwii_generate_messages_nodejs: /pi_multiwii_ws/devel_isolated/multiwii/share/gennodejs/ros/multiwii/srv/SendMSPRawMessage.js
+multiwii_generate_messages_nodejs: ./pi_multiwii_ws/devel_isolated/multiwii/share/gennodejs/ros/multiwii/msg/MSPRawMessage.js
+multiwii_generate_messages_nodejs: ./pi_multiwii_ws/devel_isolated/multiwii/share/gennodejs/ros/multiwii/srv/ReceiveMSPRawMessage.js
+multiwii_generate_messages_nodejs: ./pi_multiwii_ws/devel_isolated/multiwii/share/gennodejs/ros/multiwii/srv/SendMSPRawMessage.js
 multiwii_generate_messages_nodejs: CMakeFiles/multiwii_generate_messages_nodejs.dir/build.make
 
 .PHONY : multiwii_generate_messages_nodejs
@@ -93,6 +93,6 @@ CMakeFiles/multiwii_generate_messages_nodejs.dir/clean:
 .PHONY : CMakeFiles/multiwii_generate_messages_nodejs.dir/clean
 
 CMakeFiles/multiwii_generate_messages_nodejs.dir/depend:
-	cd /pi_multiwii_ws/build_isolated/multiwii && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /pi_multiwii_ws/src/multiwii /pi_multiwii_ws/src/multiwii /pi_multiwii_ws/build_isolated/multiwii /pi_multiwii_ws/build_isolated/multiwii /pi_multiwii_ws/build_isolated/multiwii/CMakeFiles/multiwii_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd ./pi_multiwii_ws/build_isolated/multiwii && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" ./pi_multiwii_ws/src/multiwii ./pi_multiwii_ws/src/multiwii ./pi_multiwii_ws/build_isolated/multiwii ./pi_multiwii_ws/build_isolated/multiwii ./pi_multiwii_ws/build_isolated/multiwii/CMakeFiles/multiwii_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/multiwii_generate_messages_nodejs.dir/depend
 

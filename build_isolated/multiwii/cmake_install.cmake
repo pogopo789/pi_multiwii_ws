@@ -1,8 +1,8 @@
-# Install script for directory: /pi_multiwii_ws/src/multiwii
+# Install script for directory: ./pi_multiwii_ws/src/multiwii
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/pi_multiwii_ws/install_isolated")
+  set(CMAKE_INSTALL_PREFIX "./pi_multiwii_ws/install_isolated")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,157 +49,157 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/pi_multiwii_ws/install_isolated/_setup_util.py")
+   "./pi_multiwii_ws/install_isolated/_setup_util.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/pi_multiwii_ws/install_isolated" TYPE PROGRAM FILES "/pi_multiwii_ws/build_isolated/multiwii/catkin_generated/installspace/_setup_util.py")
+file(INSTALL DESTINATION "./pi_multiwii_ws/install_isolated" TYPE PROGRAM FILES "./pi_multiwii_ws/build_isolated/multiwii/catkin_generated/installspace/_setup_util.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/pi_multiwii_ws/install_isolated/env.sh")
+   "./pi_multiwii_ws/install_isolated/env.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/pi_multiwii_ws/install_isolated" TYPE PROGRAM FILES "/pi_multiwii_ws/build_isolated/multiwii/catkin_generated/installspace/env.sh")
+file(INSTALL DESTINATION "./pi_multiwii_ws/install_isolated" TYPE PROGRAM FILES "./pi_multiwii_ws/build_isolated/multiwii/catkin_generated/installspace/env.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/pi_multiwii_ws/install_isolated/setup.bash;/pi_multiwii_ws/install_isolated/local_setup.bash")
+   "./pi_multiwii_ws/install_isolated/setup.bash;./pi_multiwii_ws/install_isolated/local_setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/pi_multiwii_ws/install_isolated" TYPE FILE FILES
-    "/pi_multiwii_ws/build_isolated/multiwii/catkin_generated/installspace/setup.bash"
-    "/pi_multiwii_ws/build_isolated/multiwii/catkin_generated/installspace/local_setup.bash"
+file(INSTALL DESTINATION "./pi_multiwii_ws/install_isolated" TYPE FILE FILES
+    "./pi_multiwii_ws/build_isolated/multiwii/catkin_generated/installspace/setup.bash"
+    "./pi_multiwii_ws/build_isolated/multiwii/catkin_generated/installspace/local_setup.bash"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/pi_multiwii_ws/install_isolated/setup.sh;/pi_multiwii_ws/install_isolated/local_setup.sh")
+   "./pi_multiwii_ws/install_isolated/setup.sh;./pi_multiwii_ws/install_isolated/local_setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/pi_multiwii_ws/install_isolated" TYPE FILE FILES
-    "/pi_multiwii_ws/build_isolated/multiwii/catkin_generated/installspace/setup.sh"
-    "/pi_multiwii_ws/build_isolated/multiwii/catkin_generated/installspace/local_setup.sh"
+file(INSTALL DESTINATION "./pi_multiwii_ws/install_isolated" TYPE FILE FILES
+    "./pi_multiwii_ws/build_isolated/multiwii/catkin_generated/installspace/setup.sh"
+    "./pi_multiwii_ws/build_isolated/multiwii/catkin_generated/installspace/local_setup.sh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/pi_multiwii_ws/install_isolated/setup.zsh;/pi_multiwii_ws/install_isolated/local_setup.zsh")
+   "./pi_multiwii_ws/install_isolated/setup.zsh;./pi_multiwii_ws/install_isolated/local_setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/pi_multiwii_ws/install_isolated" TYPE FILE FILES
-    "/pi_multiwii_ws/build_isolated/multiwii/catkin_generated/installspace/setup.zsh"
-    "/pi_multiwii_ws/build_isolated/multiwii/catkin_generated/installspace/local_setup.zsh"
+file(INSTALL DESTINATION "./pi_multiwii_ws/install_isolated" TYPE FILE FILES
+    "./pi_multiwii_ws/build_isolated/multiwii/catkin_generated/installspace/setup.zsh"
+    "./pi_multiwii_ws/build_isolated/multiwii/catkin_generated/installspace/local_setup.zsh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/pi_multiwii_ws/install_isolated/.rosinstall")
+   "./pi_multiwii_ws/install_isolated/.rosinstall")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/pi_multiwii_ws/install_isolated" TYPE FILE FILES "/pi_multiwii_ws/build_isolated/multiwii/catkin_generated/installspace/.rosinstall")
+file(INSTALL DESTINATION "./pi_multiwii_ws/install_isolated" TYPE FILE FILES "./pi_multiwii_ws/build_isolated/multiwii/catkin_generated/installspace/.rosinstall")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/multiwii/msg" TYPE FILE FILES "/pi_multiwii_ws/src/multiwii/msg/MSPRawMessage.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/multiwii/msg" TYPE FILE FILES "./pi_multiwii_ws/src/multiwii/msg/MSPRawMessage.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/multiwii/srv" TYPE FILE FILES
-    "/pi_multiwii_ws/src/multiwii/srv/ReceiveMSPRawMessage.srv"
-    "/pi_multiwii_ws/src/multiwii/srv/SendMSPRawMessage.srv"
+    "./pi_multiwii_ws/src/multiwii/srv/ReceiveMSPRawMessage.srv"
+    "./pi_multiwii_ws/src/multiwii/srv/SendMSPRawMessage.srv"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/multiwii/cmake" TYPE FILE FILES "/pi_multiwii_ws/build_isolated/multiwii/catkin_generated/installspace/multiwii-msg-paths.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/multiwii/cmake" TYPE FILE FILES "./pi_multiwii_ws/build_isolated/multiwii/catkin_generated/installspace/multiwii-msg-paths.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/pi_multiwii_ws/devel_isolated/multiwii/include/multiwii")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "./pi_multiwii_ws/devel_isolated/multiwii/include/multiwii")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/pi_multiwii_ws/devel_isolated/multiwii/share/roseus/ros/multiwii")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "./pi_multiwii_ws/devel_isolated/multiwii/share/roseus/ros/multiwii")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/pi_multiwii_ws/devel_isolated/multiwii/share/common-lisp/ros/multiwii")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "./pi_multiwii_ws/devel_isolated/multiwii/share/common-lisp/ros/multiwii")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/pi_multiwii_ws/devel_isolated/multiwii/share/gennodejs/ros/multiwii")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "./pi_multiwii_ws/devel_isolated/multiwii/share/gennodejs/ros/multiwii")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  execute_process(COMMAND "/usr/bin/python3" -m compileall "/pi_multiwii_ws/devel_isolated/multiwii/lib/python3/dist-packages/multiwii")
+  execute_process(COMMAND "/usr/bin/python3" -m compileall "./pi_multiwii_ws/devel_isolated/multiwii/lib/python3/dist-packages/multiwii")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages" TYPE DIRECTORY FILES "/pi_multiwii_ws/devel_isolated/multiwii/lib/python3/dist-packages/multiwii")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages" TYPE DIRECTORY FILES "./pi_multiwii_ws/devel_isolated/multiwii/lib/python3/dist-packages/multiwii")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/multiwii" TYPE FILE FILES "/pi_multiwii_ws/devel_isolated/multiwii/include/multiwii/UpdateRatesConfig.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/multiwii" TYPE FILE FILES "./pi_multiwii_ws/devel_isolated/multiwii/include/multiwii/UpdateRatesConfig.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages/multiwii" TYPE FILE FILES "/pi_multiwii_ws/devel_isolated/multiwii/lib/python3/dist-packages/multiwii/__init__.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages/multiwii" TYPE FILE FILES "./pi_multiwii_ws/devel_isolated/multiwii/lib/python3/dist-packages/multiwii/__init__.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  execute_process(COMMAND "/usr/bin/python3" -m compileall "/pi_multiwii_ws/devel_isolated/multiwii/lib/python3/dist-packages/multiwii/cfg")
+  execute_process(COMMAND "/usr/bin/python3" -m compileall "./pi_multiwii_ws/devel_isolated/multiwii/lib/python3/dist-packages/multiwii/cfg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages/multiwii" TYPE DIRECTORY FILES "/pi_multiwii_ws/devel_isolated/multiwii/lib/python3/dist-packages/multiwii/cfg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages/multiwii" TYPE DIRECTORY FILES "./pi_multiwii_ws/devel_isolated/multiwii/lib/python3/dist-packages/multiwii/cfg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/pi_multiwii_ws/build_isolated/multiwii/catkin_generated/installspace/multiwii.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "./pi_multiwii_ws/build_isolated/multiwii/catkin_generated/installspace/multiwii.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/multiwii/cmake" TYPE FILE FILES "/pi_multiwii_ws/build_isolated/multiwii/catkin_generated/installspace/multiwii-msg-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/multiwii/cmake" TYPE FILE FILES "./pi_multiwii_ws/build_isolated/multiwii/catkin_generated/installspace/multiwii-msg-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/multiwii/cmake" TYPE FILE FILES
-    "/pi_multiwii_ws/build_isolated/multiwii/catkin_generated/installspace/multiwiiConfig.cmake"
-    "/pi_multiwii_ws/build_isolated/multiwii/catkin_generated/installspace/multiwiiConfig-version.cmake"
+    "./pi_multiwii_ws/build_isolated/multiwii/catkin_generated/installspace/multiwiiConfig.cmake"
+    "./pi_multiwii_ws/build_isolated/multiwii/catkin_generated/installspace/multiwiiConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/multiwii" TYPE FILE FILES "/pi_multiwii_ws/src/multiwii/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/multiwii" TYPE FILE FILES "./pi_multiwii_ws/src/multiwii/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -209,12 +209,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/multiwii/Multiwii_Node"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/multiwii" TYPE EXECUTABLE FILES "/pi_multiwii_ws/devel_isolated/multiwii/lib/multiwii/Multiwii_Node")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/multiwii" TYPE EXECUTABLE FILES "./pi_multiwii_ws/devel_isolated/multiwii/lib/multiwii/Multiwii_Node")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/multiwii/Multiwii_Node" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/multiwii/Multiwii_Node")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/multiwii/Multiwii_Node"
-         OLD_RPATH "/pi_multiwii_ws/devel_isolated/msp/lib:/opt/ros/noetic/lib:"
+         OLD_RPATH "./pi_multiwii_ws/devel_isolated/msp/lib:/opt/ros/noetic/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/multiwii/Multiwii_Node")
@@ -223,16 +223,16 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/multiwii" TYPE DIRECTORY FILES "/pi_multiwii_ws/src/multiwii/launch")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/multiwii" TYPE DIRECTORY FILES "./pi_multiwii_ws/src/multiwii/launch")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/multiwii" TYPE DIRECTORY FILES "/pi_multiwii_ws/src/multiwii/cfg" FILES_MATCHING REGEX "/[^/]*\\.yaml$")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/multiwii" TYPE DIRECTORY FILES "./pi_multiwii_ws/src/multiwii/cfg" FILES_MATCHING REGEX "/[^/]*\\.yaml$")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/pi_multiwii_ws/build_isolated/multiwii/gtest/cmake_install.cmake")
+  include("./pi_multiwii_ws/build_isolated/multiwii/gtest/cmake_install.cmake")
 
 endif()
 
@@ -244,5 +244,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/pi_multiwii_ws/build_isolated/multiwii/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "./pi_multiwii_ws/build_isolated/multiwii/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

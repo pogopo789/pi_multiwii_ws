@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/pi_multiwii_ws/src/msp/examples/fcu_custom_type.cpp" "/pi_multiwii_ws/build_isolated/msp/devel/CMakeFiles/fcu_custom_type.dir/examples/fcu_custom_type.cpp.o"
+  "./pi_multiwii_ws/src/msp/examples/fcu_custom_type.cpp" "./pi_multiwii_ws/build_isolated/msp/devel/CMakeFiles/fcu_custom_type.dir/examples/fcu_custom_type.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -20,13 +20,13 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/pi_multiwii_ws/src/msp/inc/msp"
+  "./pi_multiwii_ws/src/msp/inc/msp"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/pi_multiwii_ws/build_isolated/msp/devel/CMakeFiles/msp_fcu.dir/DependInfo.cmake"
-  "/pi_multiwii_ws/build_isolated/msp/devel/CMakeFiles/mspclient.dir/DependInfo.cmake"
+  "./pi_multiwii_ws/build_isolated/msp/devel/CMakeFiles/msp_fcu.dir/DependInfo.cmake"
+  "./pi_multiwii_ws/build_isolated/msp/devel/CMakeFiles/mspclient.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

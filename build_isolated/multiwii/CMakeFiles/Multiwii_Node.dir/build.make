@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /pi_multiwii_ws/src/multiwii
+CMAKE_SOURCE_DIR = ./pi_multiwii_ws/src/multiwii
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /pi_multiwii_ws/build_isolated/multiwii
+CMAKE_BINARY_DIR = ./pi_multiwii_ws/build_isolated/multiwii
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Multiwii_Node.dir/depend.make
@@ -58,17 +58,17 @@ include CMakeFiles/Multiwii_Node.dir/progress.make
 include CMakeFiles/Multiwii_Node.dir/flags.make
 
 CMakeFiles/Multiwii_Node.dir/src/MultiwiiNode/MultiwiiNode.cpp.o: CMakeFiles/Multiwii_Node.dir/flags.make
-CMakeFiles/Multiwii_Node.dir/src/MultiwiiNode/MultiwiiNode.cpp.o: /pi_multiwii_ws/src/multiwii/src/MultiwiiNode/MultiwiiNode.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/pi_multiwii_ws/build_isolated/multiwii/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Multiwii_Node.dir/src/MultiwiiNode/MultiwiiNode.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Multiwii_Node.dir/src/MultiwiiNode/MultiwiiNode.cpp.o -c /pi_multiwii_ws/src/multiwii/src/MultiwiiNode/MultiwiiNode.cpp
+CMakeFiles/Multiwii_Node.dir/src/MultiwiiNode/MultiwiiNode.cpp.o: ./pi_multiwii_ws/src/multiwii/src/MultiwiiNode/MultiwiiNode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=./pi_multiwii_ws/build_isolated/multiwii/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Multiwii_Node.dir/src/MultiwiiNode/MultiwiiNode.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Multiwii_Node.dir/src/MultiwiiNode/MultiwiiNode.cpp.o -c ./pi_multiwii_ws/src/multiwii/src/MultiwiiNode/MultiwiiNode.cpp
 
 CMakeFiles/Multiwii_Node.dir/src/MultiwiiNode/MultiwiiNode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Multiwii_Node.dir/src/MultiwiiNode/MultiwiiNode.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /pi_multiwii_ws/src/multiwii/src/MultiwiiNode/MultiwiiNode.cpp > CMakeFiles/Multiwii_Node.dir/src/MultiwiiNode/MultiwiiNode.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E ./pi_multiwii_ws/src/multiwii/src/MultiwiiNode/MultiwiiNode.cpp > CMakeFiles/Multiwii_Node.dir/src/MultiwiiNode/MultiwiiNode.cpp.i
 
 CMakeFiles/Multiwii_Node.dir/src/MultiwiiNode/MultiwiiNode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Multiwii_Node.dir/src/MultiwiiNode/MultiwiiNode.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /pi_multiwii_ws/src/multiwii/src/MultiwiiNode/MultiwiiNode.cpp -o CMakeFiles/Multiwii_Node.dir/src/MultiwiiNode/MultiwiiNode.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S ./pi_multiwii_ws/src/multiwii/src/MultiwiiNode/MultiwiiNode.cpp -o CMakeFiles/Multiwii_Node.dir/src/MultiwiiNode/MultiwiiNode.cpp.s
 
 # Object files for target Multiwii_Node
 Multiwii_Node_OBJECTS = \
@@ -77,36 +77,36 @@ Multiwii_Node_OBJECTS = \
 # External object files for target Multiwii_Node
 Multiwii_Node_EXTERNAL_OBJECTS =
 
-/pi_multiwii_ws/devel_isolated/multiwii/lib/multiwii/Multiwii_Node: CMakeFiles/Multiwii_Node.dir/src/MultiwiiNode/MultiwiiNode.cpp.o
-/pi_multiwii_ws/devel_isolated/multiwii/lib/multiwii/Multiwii_Node: CMakeFiles/Multiwii_Node.dir/build.make
-/pi_multiwii_ws/devel_isolated/multiwii/lib/multiwii/Multiwii_Node: /opt/ros/noetic/lib/libdynamic_reconfigure_config_init_mutex.so
-/pi_multiwii_ws/devel_isolated/multiwii/lib/multiwii/Multiwii_Node: /opt/ros/noetic/lib/libtf2_ros.so
-/pi_multiwii_ws/devel_isolated/multiwii/lib/multiwii/Multiwii_Node: /opt/ros/noetic/lib/libactionlib.so
-/pi_multiwii_ws/devel_isolated/multiwii/lib/multiwii/Multiwii_Node: /opt/ros/noetic/lib/libmessage_filters.so
-/pi_multiwii_ws/devel_isolated/multiwii/lib/multiwii/Multiwii_Node: /opt/ros/noetic/lib/libroscpp.so
-/pi_multiwii_ws/devel_isolated/multiwii/lib/multiwii/Multiwii_Node: /usr/lib/x86_64-linux-gnu/libpthread.so
-/pi_multiwii_ws/devel_isolated/multiwii/lib/multiwii/Multiwii_Node: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
-/pi_multiwii_ws/devel_isolated/multiwii/lib/multiwii/Multiwii_Node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
-/pi_multiwii_ws/devel_isolated/multiwii/lib/multiwii/Multiwii_Node: /opt/ros/noetic/lib/librosconsole.so
-/pi_multiwii_ws/devel_isolated/multiwii/lib/multiwii/Multiwii_Node: /opt/ros/noetic/lib/librosconsole_log4cxx.so
-/pi_multiwii_ws/devel_isolated/multiwii/lib/multiwii/Multiwii_Node: /opt/ros/noetic/lib/librosconsole_backend_interface.so
-/pi_multiwii_ws/devel_isolated/multiwii/lib/multiwii/Multiwii_Node: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/pi_multiwii_ws/devel_isolated/multiwii/lib/multiwii/Multiwii_Node: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
-/pi_multiwii_ws/devel_isolated/multiwii/lib/multiwii/Multiwii_Node: /opt/ros/noetic/lib/libxmlrpcpp.so
-/pi_multiwii_ws/devel_isolated/multiwii/lib/multiwii/Multiwii_Node: /opt/ros/noetic/lib/libtf2.so
-/pi_multiwii_ws/devel_isolated/multiwii/lib/multiwii/Multiwii_Node: /opt/ros/noetic/lib/libroscpp_serialization.so
-/pi_multiwii_ws/devel_isolated/multiwii/lib/multiwii/Multiwii_Node: /opt/ros/noetic/lib/librostime.so
-/pi_multiwii_ws/devel_isolated/multiwii/lib/multiwii/Multiwii_Node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
-/pi_multiwii_ws/devel_isolated/multiwii/lib/multiwii/Multiwii_Node: /opt/ros/noetic/lib/libcpp_common.so
-/pi_multiwii_ws/devel_isolated/multiwii/lib/multiwii/Multiwii_Node: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
-/pi_multiwii_ws/devel_isolated/multiwii/lib/multiwii/Multiwii_Node: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
-/pi_multiwii_ws/devel_isolated/multiwii/lib/multiwii/Multiwii_Node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/pi_multiwii_ws/devel_isolated/multiwii/lib/multiwii/Multiwii_Node: CMakeFiles/Multiwii_Node.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/pi_multiwii_ws/build_isolated/multiwii/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /pi_multiwii_ws/devel_isolated/multiwii/lib/multiwii/Multiwii_Node"
+./pi_multiwii_ws/devel_isolated/multiwii/lib/multiwii/Multiwii_Node: CMakeFiles/Multiwii_Node.dir/src/MultiwiiNode/MultiwiiNode.cpp.o
+./pi_multiwii_ws/devel_isolated/multiwii/lib/multiwii/Multiwii_Node: CMakeFiles/Multiwii_Node.dir/build.make
+./pi_multiwii_ws/devel_isolated/multiwii/lib/multiwii/Multiwii_Node: /opt/ros/noetic/lib/libdynamic_reconfigure_config_init_mutex.so
+./pi_multiwii_ws/devel_isolated/multiwii/lib/multiwii/Multiwii_Node: /opt/ros/noetic/lib/libtf2_ros.so
+./pi_multiwii_ws/devel_isolated/multiwii/lib/multiwii/Multiwii_Node: /opt/ros/noetic/lib/libactionlib.so
+./pi_multiwii_ws/devel_isolated/multiwii/lib/multiwii/Multiwii_Node: /opt/ros/noetic/lib/libmessage_filters.so
+./pi_multiwii_ws/devel_isolated/multiwii/lib/multiwii/Multiwii_Node: /opt/ros/noetic/lib/libroscpp.so
+./pi_multiwii_ws/devel_isolated/multiwii/lib/multiwii/Multiwii_Node: /usr/lib/x86_64-linux-gnu/libpthread.so
+./pi_multiwii_ws/devel_isolated/multiwii/lib/multiwii/Multiwii_Node: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
+./pi_multiwii_ws/devel_isolated/multiwii/lib/multiwii/Multiwii_Node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
+./pi_multiwii_ws/devel_isolated/multiwii/lib/multiwii/Multiwii_Node: /opt/ros/noetic/lib/librosconsole.so
+./pi_multiwii_ws/devel_isolated/multiwii/lib/multiwii/Multiwii_Node: /opt/ros/noetic/lib/librosconsole_log4cxx.so
+./pi_multiwii_ws/devel_isolated/multiwii/lib/multiwii/Multiwii_Node: /opt/ros/noetic/lib/librosconsole_backend_interface.so
+./pi_multiwii_ws/devel_isolated/multiwii/lib/multiwii/Multiwii_Node: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+./pi_multiwii_ws/devel_isolated/multiwii/lib/multiwii/Multiwii_Node: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
+./pi_multiwii_ws/devel_isolated/multiwii/lib/multiwii/Multiwii_Node: /opt/ros/noetic/lib/libxmlrpcpp.so
+./pi_multiwii_ws/devel_isolated/multiwii/lib/multiwii/Multiwii_Node: /opt/ros/noetic/lib/libtf2.so
+./pi_multiwii_ws/devel_isolated/multiwii/lib/multiwii/Multiwii_Node: /opt/ros/noetic/lib/libroscpp_serialization.so
+./pi_multiwii_ws/devel_isolated/multiwii/lib/multiwii/Multiwii_Node: /opt/ros/noetic/lib/librostime.so
+./pi_multiwii_ws/devel_isolated/multiwii/lib/multiwii/Multiwii_Node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
+./pi_multiwii_ws/devel_isolated/multiwii/lib/multiwii/Multiwii_Node: /opt/ros/noetic/lib/libcpp_common.so
+./pi_multiwii_ws/devel_isolated/multiwii/lib/multiwii/Multiwii_Node: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
+./pi_multiwii_ws/devel_isolated/multiwii/lib/multiwii/Multiwii_Node: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
+./pi_multiwii_ws/devel_isolated/multiwii/lib/multiwii/Multiwii_Node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+./pi_multiwii_ws/devel_isolated/multiwii/lib/multiwii/Multiwii_Node: CMakeFiles/Multiwii_Node.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=./pi_multiwii_ws/build_isolated/multiwii/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ./pi_multiwii_ws/devel_isolated/multiwii/lib/multiwii/Multiwii_Node"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Multiwii_Node.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/Multiwii_Node.dir/build: /pi_multiwii_ws/devel_isolated/multiwii/lib/multiwii/Multiwii_Node
+CMakeFiles/Multiwii_Node.dir/build: ./pi_multiwii_ws/devel_isolated/multiwii/lib/multiwii/Multiwii_Node
 
 .PHONY : CMakeFiles/Multiwii_Node.dir/build
 
@@ -115,6 +115,6 @@ CMakeFiles/Multiwii_Node.dir/clean:
 .PHONY : CMakeFiles/Multiwii_Node.dir/clean
 
 CMakeFiles/Multiwii_Node.dir/depend:
-	cd /pi_multiwii_ws/build_isolated/multiwii && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /pi_multiwii_ws/src/multiwii /pi_multiwii_ws/src/multiwii /pi_multiwii_ws/build_isolated/multiwii /pi_multiwii_ws/build_isolated/multiwii /pi_multiwii_ws/build_isolated/multiwii/CMakeFiles/Multiwii_Node.dir/DependInfo.cmake --color=$(COLOR)
+	cd ./pi_multiwii_ws/build_isolated/multiwii && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" ./pi_multiwii_ws/src/multiwii ./pi_multiwii_ws/src/multiwii ./pi_multiwii_ws/build_isolated/multiwii ./pi_multiwii_ws/build_isolated/multiwii ./pi_multiwii_ws/build_isolated/multiwii/CMakeFiles/Multiwii_Node.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Multiwii_Node.dir/depend
 

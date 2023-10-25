@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /pi_multiwii_ws/devel_isolated/multiwii/setup.sh
+    local-name: ./pi_multiwii_ws/devel_isolated/multiwii/setup.sh

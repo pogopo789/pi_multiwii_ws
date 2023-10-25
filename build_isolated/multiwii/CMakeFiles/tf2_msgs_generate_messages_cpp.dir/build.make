@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /pi_multiwii_ws/src/multiwii
+CMAKE_SOURCE_DIR = ./pi_multiwii_ws/src/multiwii
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /pi_multiwii_ws/build_isolated/multiwii
+CMAKE_BINARY_DIR = ./pi_multiwii_ws/build_isolated/multiwii
 
 # Utility rule file for tf2_msgs_generate_messages_cpp.
 
@@ -67,6 +67,6 @@ CMakeFiles/tf2_msgs_generate_messages_cpp.dir/clean:
 .PHONY : CMakeFiles/tf2_msgs_generate_messages_cpp.dir/clean
 
 CMakeFiles/tf2_msgs_generate_messages_cpp.dir/depend:
-	cd /pi_multiwii_ws/build_isolated/multiwii && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /pi_multiwii_ws/src/multiwii /pi_multiwii_ws/src/multiwii /pi_multiwii_ws/build_isolated/multiwii /pi_multiwii_ws/build_isolated/multiwii /pi_multiwii_ws/build_isolated/multiwii/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd ./pi_multiwii_ws/build_isolated/multiwii && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" ./pi_multiwii_ws/src/multiwii ./pi_multiwii_ws/src/multiwii ./pi_multiwii_ws/build_isolated/multiwii ./pi_multiwii_ws/build_isolated/multiwii ./pi_multiwii_ws/build_isolated/multiwii/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/tf2_msgs_generate_messages_cpp.dir/depend
 
