@@ -1,1 +1,0 @@
-/home/thanhdat/pi_multiwii_ws/devel/.private/multiwii/share/roseus/ros/multiwii/manifest.l
