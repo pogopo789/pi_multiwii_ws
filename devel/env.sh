@@ -1,0 +1,1 @@
+/home/thanhdat/pi_multiwii_ws/devel/.private/catkin_tools_prebuild/env.sh
