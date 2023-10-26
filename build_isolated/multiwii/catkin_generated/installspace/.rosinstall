@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /pi_multiwii_ws/install_isolated/setup.sh
